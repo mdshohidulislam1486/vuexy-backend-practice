@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ** React Hot Toast Styles
+/* import '@styles/react/libs/react-hot-toasts/react-hot-toasts.scss';
+import './@core/scss/react/libs/react-hot-toasts/react-hot-toasts.scss'; */
+import { ProSidebarProvider } from 'react-pro-sidebar';
+import './assets/sass/index.scss';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ProSidebarProvider>
+      <App />
+    </ProSidebarProvider>
   </React.StrictMode>
 );
 

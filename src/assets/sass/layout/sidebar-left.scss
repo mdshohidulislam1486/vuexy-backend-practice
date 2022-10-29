@@ -1,0 +1,76 @@
+.sidebar-container-section {
+  .MuiBox-root.css-1p3jcfc {
+    background: #fff;
+    z-index: 20;
+    min-height: 100vh;
+  }
+  .sidebar-main {
+    background-color: #fff;
+    .logo-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2em 0.5em;
+      .logo-image {
+        max-width: 150px;
+      }
+      .logo-image.display-none {
+        display: none;
+        transition: all 0.5s linear;
+      }
+      svg {
+        cursor: pointer;
+      }
+    }
+    .logo-container.flex-change {
+      display: block;
+    }
+
+    background-color: none;
+    .menu-container {
+      .sc-eDvSVe.gnJkew {
+        .sc-eDWCr.ffSMgA {
+          transition: padding-left 0.15s linear;
+          &:hover {
+            padding-left: 0.2em;
+          }
+        }
+      }
+      .sub-menu.menu-item {
+        .sub-menu-content {
+        }
+        .menu-anchor {
+          .etCBxB {
+            display: none;
+          }
+        }
+        .sc-jSUZER.daWgIu {
+          .sc-eDvSVe.gnJkew {
+            overflow: hidden;
+            a {
+              li {
+                .menu-anchor {
+                  span {
+                    padding-left: 30px;
+                    transition: padding-left 0.2s linear;
+                    &:hover {
+                      padding-left: 35px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Navbar main section
+
+.img-avatar {
+  img {
+    height: 51px;
+  }
+}

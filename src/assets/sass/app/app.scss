@@ -1,0 +1,7 @@
+.the-custom-p {
+  .custom-span {
+  }
+  @include ipad-pro {
+    background-color: rgb(35, 49, 107);
+  }
+}
